@@ -1,0 +1,271 @@
+:: StoryTitle
+COM390 Twine
+
+
+:: StoryData
+{
+  "ifid": "5BA0A8D7-8BCE-4A5D-A6DC-90682F0CD0C5",
+  "format": "Harlowe",
+  "format-version": "3.3.9",
+  "start": "Wake Up",
+  "zoom": 1
+}
+
+
+:: Enter Living Room {"position":"575,375","size":"100,100"}
+You physically get up, put on your slippers and head to the living room.
+
+It's quiet, your roommates' doors are also closed and silent.
+
+You look at the table, and see a pair of keys. A set with a car key.
+
+<img src="key_set.jpeg" width="350">
+
+You think to yourself, "no one here has a car, who's could these be?"
+
+What should you do?
+
+[[Knock on door of Roommate 1->Roommate 1]]
+[[Knock on door of Roommate 2->Roommate 2]]
+[[Think of something else?->Something else]]
+
+
+:: Garage {"position":"950,625","size":"100,100"}
+You take the key set to the garage.
+
+It's three floors, where do you start?
+
+[[1st Floor->Garage 1]]
+[[2nd Floor->Garage 2]]
+[[3rd Floor->Garage 3]]
+
+
+:: Garage 1 {"position":"800,775","size":"100,100"}
+First Floor it is.
+
+You walk around, clicking the "lock" button.
+
+*beep beep*
+
+"AHA!" you think.
+
+"I FOUND IT!"
+
+*You get excited and keep clicking the lock button, but you don't hear anything anymore*
+
+*Your neighbor walks past you.*
+
+Neighbor: "Hey Neighbor, mornin!" *As they get into their white SUV.*
+
+You: "Good Morning!" *as you sadly realized you didn't make the car beep.*
+
+You walk through the second row of cars.
+
+*nothing*
+
+No luck, where next?
+
+[[2nd Floor->Garage 2]]
+[[3rd Floor->Garage 3]]
+
+
+:: Garage 2 {"position":"950,825","size":"100,100"}
+Second Floor it is.
+
+You walk around, clicking the "lock" button.
+
+*nothing*
+
+Walk through the second row of cars.
+
+*nothing*
+
+Third row of cars.
+
+*you hear something, some rattling, you keep clicking...*
+*someone comes out of a red car, keys in hand, locks their car and walks away*
+
+You: "Bruh, false alarm."
+
+Fourth row of cars.
+
+*nothing*
+
+As you finish walking that row, your phone buzzes.
+
+What do you do?
+
+[[Go to 1st Floor?->Garage 1]]
+[[Go to 3rd Floor?->Garage 3]]
+[[Check Phone?->Phone]]
+
+
+:: Garage 3 {"position":"1075,775","size":"100,100"}
+Third Floor it is.
+
+You walk around, clicking the "lock" button.
+
+*nothing*
+
+Walk through the second row of cars.
+
+*nothing*
+
+Third row of cars.
+
+*nothing*
+
+Fourth row of cars.
+
+*nothing*
+
+No luck, where next?
+
+[[1st Floor->Garage 1]]
+[[2nd Floor->Garage 2]]
+
+
+:: Keys {"position":"825,625","size":"100,100"}
+You decide to test all the keys.
+
+You go to the storage room on the first floor and test to see if any key opens it.
+
+*nothing*
+
+You check the mail room, see if any open there.
+
+*nothing*
+
+You check the building supervisor's office, see if any open there.
+
+*nothing*
+
+As you go to the lounge to see if the keys work there, you see one of the building janitors, and they ask you, "Uhm, what are you doing?"
+
+*nervously, you reply* "Uhhhh, nothing."
+
+*You turn, back to the elevator, and think to yourself*   Hmm, maybe this isn't a good idea?
+
+[[Back to square one.->Something else]]
+
+
+:: Phone {"position":"950,950","size":"100,100"}
+You check your phone.
+
+It's the "Apartment 512 Chat," Rob sent a message.
+
+Rob: "Hey, did anyone see a pair of keys on the table?"
+
+*...you freeze.*
+
+You think to yourself, "Did I just really take someone's keys and try and have fun? What am I doing?"
+
+*You snap out of your little world, and head back to your apartment.*
+
+Your 30 minutes of fun is over.
+
+THE END.
+
+[[Back to square one.->Wake Up]]
+
+
+:: Roommate 1 {"position":"300,500","size":"100,100"}
+You decide to ask your roommate Rob.
+
+You knock on his door. *knock knock*
+
+"Hey Rob, it's me, Justin."
+
+You wait.
+
+You can't hear any movement inside, but you still wait.
+
+You wonder if it's Rob's. You didn't know he had a license, let alone a car, so you'd be shocked if they were his.
+
+No response, you still wait.
+
+[[Knock again.->Roommate 1 Second Knock]]
+[[Back to square one.->Enter Living Room]]
+
+
+:: Roommate 1 Second Knock {"position":"300,625","size":"100,100"}
+You knock again. *knock knock*
+
+"Hey Rob, sorry to bother, it's me Justin, just wanna ask you a quick question."
+
+You wait.
+
+Nothing.
+
+[[Back to square one.->Enter Living Room]]
+
+
+:: Roommate 2 {"position":"575,550","size":"100,100"}
+You decide to ask your roommate Alex.
+
+You knock on his door. *knock knock*
+
+"Hey Alex, it's me, Justin."
+
+You wait.
+
+You hear movement inside, someone shuffling, then you hear the doorknob.
+
+*door opens*
+
+Alex: "Hey Justin, mornin', what's up?"
+
+You: "Hey Alex, Good Morning, just wanted to ask if these keys on the table are yours?"
+
+*Alex looks at the keys on the table, then turns back and looks towards his desk.*
+
+Alex: "Nahh, ain't mine browski, I got mines on my desk."
+
+You: "Oh okay, just checking. Thanks! Sorry to bother."
+
+Alex: "No problem my dude"
+
+*Door shuts*
+
+You continue wondering, who's could they be?
+
+[[Back to square one.->Enter Living Room]]
+
+
+:: Something else {"position":"825,500","size":"100,100"}
+You decide to do something with the keys.
+
+You don't know what to do, where they go, nor who they belong too.
+
+You think.
+
+Think.
+
+And think more.
+
+You: "Ehhh, it's a Saturday, let's live life."
+
+You grab the keys, put on your sneakers, and walk out of the apartment.
+
+As you take the elevator downstairs, you wonder, what should I do with these?
+
+[[Test all the doors, see if the keys open them.->Keys]]
+[[Go to the garage, find the car.->Garage]]
+
+
+:: Wake Up {"position":"575,250","size":"100,100"}
+<h1>The Key </h1>
+
+You wake up. It's 10:00AM, the sun is shining bright through the windows and straight into your eyes. You're still tired, but can't sleep because of the sun. You would get up to close the blinds, but once you're up, you might as well stay up.
+
+You turn, maybe that'll help.
+
+It doesn't.
+
+You put the covers over your head.
+
+Now, you feel like your suffocating and its getting hot.
+
+You take off the covers, stare at the ceiling, and accept your fate.
+
+[[You get up.->Enter Living Room]]
